@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/sroberson/skipnav/issues"
   },
-  "homepage": "https://github.com/sroberson/skipnav#readme"
+  "homepage": "https://github.com/sroberson/skipnav#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0"
+  }
 }
