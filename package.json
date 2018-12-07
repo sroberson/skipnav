@@ -1,6 +1,6 @@
 {
   "name": "skipnav",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Skipnav is a vanilla Javascript implementation of [\"Skip Navigation\" Links](https://webaim.org/techniques/skipnav/)",
   "main": "skipnav.js",
   "scripts": {
