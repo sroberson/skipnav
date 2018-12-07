@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/sroberson/skipnav.git"
   },
-  "keywords": ["accessibility", "javascript"],
+  "keywords": [
+    "accessibility",
+    "javascript"
+  ],
   "author": "Scott Roberson <sroberson@gmail.com>",
   "license": "ISC",
   "bugs": {
