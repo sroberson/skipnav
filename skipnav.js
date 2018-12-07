@@ -8,6 +8,10 @@ document.querySelector("#skipnav").addEventListener("click", function(event) {
         event.target.setAttribute("tabindex", "");
     };
 
+    if (target.length === 0) {
+        console.log("target not found [" + skipToID + "]");
+    }
+
     target.setAttribute("tabindex", -1);
     target.focus();
     target.addEventListener('blur', removeTabIndex);
