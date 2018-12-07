@@ -5,8 +5,9 @@ document.querySelector("#skipnav").addEventListener("click", function (event) {
     const skipToID = "#" + element.getAttribute("href").split("#")[1];
     let target = document.querySelector(skipToID);
 
-    if (target.length === 0) {
+    if (!target || target.length === 0) {
         console.log("target not found [" + skipToID + "]");
+        return;
     }
 
     let removeTabIndex = (event) => {
